@@ -6,8 +6,6 @@ This is the OSHWLab view only link for this project
 
 https://oshwlab.com/yash2942012/project_jpczxhkt
 
-<img width="1703" height="923" alt="ChatGPT Image Aug 13, 2026, 08_15_56 PM" src="https://github.com/user-attachments/assets/2b05f2f2-709c-4bbd-922d-9a81f43b723f" />
-
 ## Technical Specs
 
  Power Supply
@@ -42,6 +40,24 @@ Addons
 - OLED - HS96L03W2C03
 - Micro SD Card Slot - 1040310811
 - Neo Pixel LED - WS2812B-B
+
+<img width="1703" height="923" alt="ChatGPT Image Aug 13, 2026, 08_15_56 PM" src="https://github.com/user-attachments/assets/2b05f2f2-709c-4bbd-922d-9a81f43b723f" />
+
+YOU CAN ALSO DOWNLOAD THE GERBER, CPL AND BOM FILE FOR DIRECT PCB MANUFACTURING! 
+
+## HOW TO USE
+- Put the Batteries in ensure they have an unprotected cap
+- Short the Male Header Pins Labeled 'Board' to power ON the Board
+- Short the Male Header Pins Labeled 'ATmega328P-AU' to power ON the Arduino Nano only part
+- Short the Male Header Pins Labeled 'ESP32-WROOM-32E (8MB)' to power ON the ESP32 only part
+- Short the Male Header Pins Labeled 'RP2040' to power ON the Raspberry Pi Pico only part
+- Short the Male Header Pins Labeled 'AT_OLED' to power ON the OLED connected to Arduino Nano
+- Short the Male Header Pins Labeled 'ESP_OLED' to power ON the OLED connected to ESP32
+- Short the Male Header Pins Labeled 'RP_OLED' to power ON the OLED connected to Raspberry Pi Pico
+- Short the Male Header Pins Labeled 'Micro SD' to power ON the Micro SD Card Slot
+- Use the PC4 as SDA and PC5 as SCL to control the AT_OLED
+- Use the  as SDA and PC5 as SCL to control the AT_OLED
+- Use the PC4 as SDA and PC5 as SCL to control the AT_OLED
 
 
 
