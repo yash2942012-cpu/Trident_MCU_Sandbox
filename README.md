@@ -56,8 +56,58 @@ YOU CAN ALSO DOWNLOAD THE GERBER, CPL AND BOM FILE FOR DIRECT PCB MANUFACTURING!
 - Short the Male Header Pins Labeled 'RP_OLED' to power ON the OLED connected to Raspberry Pi Pico
 - Short the Male Header Pins Labeled 'Micro SD' to power ON the Micro SD Card Slot
 - Use the PC4 as SDA and PC5 as SCL to control the AT_OLED
-- Use the  as SDA and PC5 as SCL to control the AT_OLED
-- Use the PC4 as SDA and PC5 as SCL to control the AT_OLED
+- Use the IO21 as SDA and IO22 as SCL to control the ESP_OLED
+- Use the GPIO4 as SDA and GPIO5 as SCL to control the RP_OLED
+- Use the Jumpers above the Micro SD Card Slot to connect it with the micro-controllers
+
+## DESIGN
+
+## SCHEMATIC
+
+### Sheet 1
+
+<img width="3295" height="2322" alt="SCH_Trident MCU Sandbox_4-Sheet_1_2026-08-16" src="https://github.com/user-attachments/assets/6c6d37c9-d0e0-4465-9bca-436f7e2aa86c" />
+
+### Sheet 2
+
+<img width="3286" height="2322" alt="SCH_Trident MCU Sandbox_5-Sheet_2_2026-08-16" src="https://github.com/user-attachments/assets/812db3e9-d00f-4215-b559-c8ed6b86f980" />
+
+### Sheet 3
+
+<img width="3286" height="2322" alt="SCH_Trident MCU Sandbox_1-Sheet_3_2026-08-16" src="https://github.com/user-attachments/assets/b2ca974e-1987-42e9-8b66-87e2e51ea57c" />
+
+### Sheet 4
+
+<img width="3286" height="2322" alt="SCH_Trident MCU Sandbox_3-Sheet_4_2026-08-16" src="https://github.com/user-attachments/assets/58d24fe0-760e-4076-b927-73b46e7d7d3c" />
+
+### Sheet 5
+
+<img width="3286" height="2322" alt="SCH_Trident MCU Sandbox_2-Sheet_5_2026-08-16" src="https://github.com/user-attachments/assets/41ea8ec7-8e69-45c9-806f-bc319b021459" />
 
 
+## PCB Layout
+
+<img width="2160" height="1150" alt="PCB_PCB_Yantravyuh_2026-08-16" src="https://github.com/user-attachments/assets/46001adf-d57a-4b74-9c92-32d7fe9424ea" />
+
+### TOP LAYER (SIGNAL)
+
+<img width="2160" height="1150" alt="PCB_PCB_Yantravyuh_2026-08-16 (1)" src="https://github.com/user-attachments/assets/7269c984-16cd-4798-b6a6-2ae44497b739" />
+
+### INNER 1 (SIGNAL)
+
+<img width="2160" height="1150" alt="PCB_PCB_Yantravyuh_2026-08-16 (3)" src="https://github.com/user-attachments/assets/e51d63d5-8c0b-4678-93bb-8feef8d5208b" />
+
+### INNER 2 (PLANE, GND)
+
+<img width="2160" height="1150" alt="PCB_PCB_Yantravyuh_2026-08-16 (4)" src="https://github.com/user-attachments/assets/d84dd653-9988-4c79-b62c-3c887c35103c" />
+
+### BOTTOM LAYER (SIGNAL)
+
+<img width="2160" height="1150" alt="PCB_PCB_Yantravyuh_2026-08-16 (2)" src="https://github.com/user-attachments/assets/5896d75b-848c-404c-b745-76f54a137955" />
+
+
+
+
+
+ 
 
